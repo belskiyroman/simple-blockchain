@@ -1,6 +1,6 @@
 const _fs = require('fs');
 const path = require('path');
-const _filePath = path.join(process.env.STORAGE_FOLDER_PATH, '_db.json');
+const _filePath = path.join(process.env.STORAGE_FOLDER_PATH, 'db.json');
 
 class StorageService {
 
