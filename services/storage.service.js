@@ -46,12 +46,12 @@ class StorageService {
   }
 
   _writeFile(data) {
-    try {
-      const json = typeof data === 'string' ? data : JSON.stringify(data);
-      this.constructor.fs.writeFileSync(this.constructor.filePath, json);
-    } catch (e) {
-      console.error(`\nInvalid path ${this.constructor.filePath}.\nYou may have specified a non-existent folder for the database file.\n`);
-    }
+    const json = typeof data === 'string' ? data : JSON.stringify(data);
+    this.constructor.fs.writeFile(this.constructor.filePath, json, (err) => {
+      if (err) {
+        console.error(`\nInvalid path ${this.constructor.filePath}.\nYou may have specified a non-existent folder for the database file.\n`);
+      }
+    });
   }
 
   _dbInit() {

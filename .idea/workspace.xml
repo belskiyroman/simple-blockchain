@@ -67,8 +67,8 @@
       <file leaf-file-name="storage.service.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/services/storage.service.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="62" lean-forward="true" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
+            <state relative-caret-position="352">
+              <caret line="54" column="3" lean-forward="true" selection-start-line="54" selection-start-column="3" selection-end-line="54" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -99,6 +99,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>consol</find>
+      <find>syn</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -262,12 +263,12 @@
       <updated>1516545044306</updated>
       <workItem from="1516545046191" duration="829000" />
       <workItem from="1516551890786" duration="694000" />
-      <workItem from="1516552588621" duration="19529000" />
+      <workItem from="1516552588621" duration="19978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21052000" />
+    <option name="totallyTimeSpent" value="21501000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="22" width="1397" height="878" extended-state="6" />
@@ -508,8 +509,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/services/storage.service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="62" lean-forward="true" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
+        <state relative-caret-position="352">
+          <caret line="54" column="3" lean-forward="true" selection-start-line="54" selection-start-column="3" selection-end-line="54" selection-end-column="3" />
           <folding />
         </state>
       </provider>
