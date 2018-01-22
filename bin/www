@@ -93,4 +93,5 @@ function onListening() {
     ? 'pipe ' + addr
     : 'port ' + addr.port;
   debug('Listening on ' + bind);
+  console.log('Listening on ' + bind, '\nYou can use "https://github.com/visionmedia/debug" for more debug information.')
 }
